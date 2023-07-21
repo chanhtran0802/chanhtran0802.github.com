@@ -1,0 +1,82 @@
+/* spacing on all sections */
+.section {
+    margin-top: 4rem;
+    padding-top: 4rem;
+}
+.section:last-of-type {
+    padding-bottom: 4rem;
+}
+    
+/* hero background image */
+.bgimage {
+    height:100vh;
+    background: url(https://scontent.fvca1-1.fna.fbcdn.net/v/t39.30808-6/279838226_1675399609461194_4984424088355323561_n.jpg?_nc_cat=106&ccb=1-7&_nc_sid=e3f864&_nc_ohc=FZ2kYszHsWAAX95-ijd&_nc_ht=scontent.fvca1-1.fna&oh=00_AfARacaV_fZgAGPOkc_VQ5W-JhS4KTm6RbDRKPEOPcE6bQ&oe=64BF3C94);
+    background-size:cover;
+    position:relative;
+    padding: 0;
+    margin: 0;
+}
+/* text css above hero image*/
+.hero_title {
+    padding-top: 10rem;
+    font-size: 4.5rem;
+}
+.hero_desc {
+    font-size: 2rem;
+}
+.hero_text {
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: rgb(255,255,255);
+}
+
+.image_about {
+    width: 70%;
+}
+
+.navbarDark {
+    background: #000;
+}
+
+
+ .social-icons {
+    font-size: 36px;
+    cursor: pointer;
+}
+.fa-facebook:hover,
+.fa-instagram:hover,
+.fa-twitter:hover,
+.fa-linkedin:hover, 
+.fa-twitch:hover {
+    color: #fff;
+}
+.fab {
+    color: #000000;
+}
+
+.servicesText.card {
+    height: 280px;
+    cursor: pointer;
+  }
+.servicesIcon {
+    font-size: 36px;
+    text-align: center;
+    width: 100%;
+}
+.card-title {
+    text-align: center;
+}
+.card:hover .servicesIcon {
+    color: #008000;
+}
+.servicesText:hover {
+    border: 1px solid #008000;
+}
+
+.footer {
+    background-color: #808080;
+    text-align: center;
+}
