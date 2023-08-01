@@ -10,7 +10,7 @@
 /* hero background image */
 .bgimage {
     height:100vh;
-    background: url(https://scontent.fvca1-1.fna.fbcdn.net/v/t39.30808-6/279838226_1675399609461194_4984424088355323561_n.jpg?_nc_cat=106&ccb=1-7&_nc_sid=e3f864&_nc_ohc=FZ2kYszHsWAAX95-ijd&_nc_ht=scontent.fvca1-1.fna&oh=00_AfARacaV_fZgAGPOkc_VQ5W-JhS4KTm6RbDRKPEOPcE6bQ&oe=64BF3C94);
+    background: url(https://scr.vn/wp-content/uploads/2020/07/%E1%BA%A2nh-b%E1%BA%A7u-tr%E1%BB%9Di-sao-4k-scaled.jpg);
     background-size:cover;
     position:relative;
     padding: 0;
@@ -38,7 +38,7 @@
 }
 
 .navbarDark {
-    background: #000;
+    background: #196896;
 }
 
 
@@ -70,10 +70,10 @@
     text-align: center;
 }
 .card:hover .servicesIcon {
-    color: #008000;
+    color: #005580;
 }
 .servicesText:hover {
-    border: 1px solid #008000;
+    border: 1px solid #005580;
 }
 
 .footer {
